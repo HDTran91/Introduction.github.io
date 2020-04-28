@@ -98,6 +98,7 @@ a.navbar-brand span {
 .khoittnho {
     border: 3px double gray;
     margin-bottom: 3px;
+    background: lightblue
 }
 
 .khoittnho p {
@@ -128,8 +129,6 @@ a.navbar-brand span {
 .col-sm-12.tieudeto.text-sm-center {
     padding-bottom: 0px;
 }
-
-
 
 
 .menutop {
