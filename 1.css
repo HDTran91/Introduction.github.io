@@ -95,6 +95,40 @@ a.navbar-brand span {
 @media (max-width: 576px) {
 	*{}
 
+.khoittnho {
+    border: 3px double gray;
+    margin-bottom: 3px;
+}
+
+.khoittnho p {
+    padding-top: 0px;
+    font-size: 12px;
+}
+
+.khoittnho h3 {
+    font-size: 15px;
+    color: blue;
+}
+
+.edu h2 {
+    font-size: 20px;
+}
+
+.tieudeto h1 {
+    font-size: 30px;
+}
+
+.col-sm-4.text-sm-center.anh {display: none;}
+
+.container.gacon {
+    padding-top: 0px;
+    text-align: center;
+}
+
+.col-sm-12.tieudeto.text-sm-center {
+    padding-bottom: 0px;
+}
+
 
 
 
