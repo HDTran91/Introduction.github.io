@@ -1,6 +1,31 @@
 *{margin: 0; padding: 0;}
 
-.khoitt1:before {content: "";position: absolute;top: 0;left: 0;height: 100%;width: 50%;background: #e4555b;}
+a.nuthire.btn.btn-primary {
+    background: black;
+    font-size: 20px;
+    width: 200px;
+}
+
+.tt h2 {
+    color: white;
+    font-size: 49px;
+}
+
+.tt img {
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.tt {
+    z-index: 2;
+    position: relative;
+    padding-top: 200px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.khoitt1:before {content: "";position: absolute;top: 0;left: 0;height: 100%;width: 50%;background: #e4555b;z-index: 1;}
 
 body,html {
     width: 100%;
@@ -42,6 +67,18 @@ a.navbar-brand span {
 
 @media (max-width: 576px) {
 	*{}
+
+
+
+
+.menutop {
+    background: lightyellow;
+}
+
+
+.tt {
+    padding-top: 100px;
+}
 
 
 
