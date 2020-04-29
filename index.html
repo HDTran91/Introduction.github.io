@@ -4,20 +4,26 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 
-
+	
 	<link rel="stylesheet" href="vendor/font-awesome.css">
 	<link rel="stylesheet" href="1.css">
 	<link rel="stylesheet" href="vendor/bootstrap.min.css">
 	<script src="jquery.js"></script>
-	<script src="vendor/jquery-3.4.1.slim.min.js"></script>
+	<script src="jquery-3.1.1.min.js"></script>
+
 	<script src="vendor/bootstrap.min.js"></script>
+	<script src="isotope.pkgd.min.js"></script>
 
+	
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	
 </head>
 <body >
 	
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v6.0&appId=2688001318096769&autoLogAppEvents=1"></script>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v6.0&appId=2688001318096769&autoLogAppEvents=1"></script>
 
 	<div class="menutop fixed-top">
 
@@ -30,16 +36,19 @@
 				<!-- Links -->
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Home</a>
+						<a class="nav-link" href="#so1">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Experience</a>
+						<a class="nav-link" href="#so2">Experience</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Product</a>
+						<a class="nav-link" href="#so3">Projects</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Comment</a>
+						<a class="nav-link" href="#so4">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#so5">Comment</a>
 					</li>
 
 				</ul>
@@ -48,7 +57,7 @@
 	</div>
 	<!-- het menu -->
 
-	<div class="khoitt1">
+	<div class="khoitt1" id="so1">
 		<div class="container text-center">
 			<div class="tt">
 				<img src="images/avatar.jpg" alt="">
@@ -64,7 +73,7 @@
 	</div>
 	<!-- het khoi tt -->
 
-	<div class="edu">
+	<div class="edu" id="so2">
 		<div class="container gacon">
 			<div class="row">
 				<div class="col-sm-12 tieudeto text-sm-center">
@@ -118,7 +127,7 @@
 	<!-- het phan edu -->
 	<hr class="duongke">
 
-	<div class="projects">
+	<div class="projects" id="so3">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-sm-center">
@@ -149,22 +158,75 @@
 		</div>
 	</div>
 
+	<!-- het project -->
+	<hr class="duongke">
+	<div class="gallery" id="so4">
+		<div class="tieudebu text-center">
+			<h1>My Gallery</h1>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="khoi">
+					<a data-fancybox="gallery" href="images/16.jpg"><img src="images/16.jpg" alt=""></a>
+				</div>
+				<div class="khoi">
+					<a data-fancybox="gallery" href="images/15.jpg"><img src="images/15.jpg" alt=""></a>
+				</div>
+				<div class="khoi">
+					<a data-fancybox="gallery" href="images/14.jpg"><img src="images/14.jpg" alt=""></a>
+				</div>
+				<div class="khoi">
+					<a data-fancybox="gallery" href="images/13.jpg"><img src="images/13.jpg" alt=""></a>
+				</div>
+				<div class="khoi">
+					<a data-fancybox="gallery" href="images/12.jpg"><img src="images/12.jpg" alt=""></a>
+				</div>
+				<div class="khoi">
+					<a data-fancybox="gallery" href="images/10.jpg"><img src="images/10.jpg" alt=""></a>
+				</div>
+				<div class="khoi">
+					<a data-fancybox="gallery" href="images/8.jpg"><img src="images/8.jpg" alt=""></a>
+				</div>
+				<div class="khoi">
+					<a data-fancybox="gallery" href="images/4.jpg"><img src="images/4.jpg" alt=""></a>
+				</div>
+				<div class="khoi">
+					<a data-fancybox="gallery" href="images/7.jpg"><img src="images/7.jpg" alt=""></a>
+				</div>
+				<div class="khoi">
+					<a data-fancybox="gallery" href="images/5.jpg"><img src="images/5.jpg" alt=""></a>
+				</div>
+				<div class="khoi">
+					<a data-fancybox="gallery" href="images/8.jpg"><img src="images/8.jpg" alt=""></a>
+				</div>
+				<div class="khoi">
+					<a data-fancybox="gallery" href="images/1.jpg"><img src="images/1.jpg" alt=""></a>
+				</div>
+				<div class="khoi">
+					<a data-fancybox="gallery" href="images/2.jpg"><img src="images/2.jpg" alt=""></a>
+				</div>
+				
+				
+			</div>
+		</div>
+		
+	</div>
 	
 	<hr class="duongke">
 
-	<div class="khoicomment">
+	<div class="khoicomment" id="so5">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center">
 					<h1>Comment</h1>
 				</div>
 				
-					<div class="col-sm-10 push-sm-2">
-						<div class="fb-comments" data-href="https://hdtran91.github.io/Introduction.github.io/" data-numposts="5" data-width="800"></div>
+				<div class="col-sm-10 push-sm-2">
+					<div class="fb-comments" data-href="https://hdtran91.github.io/Introduction.github.io/" data-numposts="5" data-width="800"></div>
 
-					</div>
-					
-		
+				</div>
+
+
 			</div>
 		</div>
 	</div>
