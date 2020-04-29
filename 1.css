@@ -19,11 +19,11 @@
 
 
 .projects {
-	background: lightyellow;
+    background: lightyellow;
 }
 
 .noidung p {
-    background: lightblue;
+    color: blue;
 }
 
 .nutscroll:hover {
@@ -157,10 +157,11 @@ li.nav-item a {
     color: white;
     font-size: 20px;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 li.nav-item a.black {
-	color: black;
+    color: black;
 }
 a.navbar-brand {
     color: white;
@@ -168,7 +169,7 @@ a.navbar-brand {
     font-weight: 700;
 }
 a.navbar-brand.black {
-	color: black;
+    color: black;
 }
 
 a.navbar-brand span {
@@ -179,7 +180,52 @@ a.navbar-brand span {
 
 
 @media (max-width: 576px) {
-	*{}
+    *{}
+
+.nutscroll {
+    left: 45%;
+}
+
+.khoicomment h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+.gallery .container-fluid {
+    padding-top: 10px;
+}
+
+.gallery h1 {
+    font-size: 25px;
+}
+
+.noidung p {
+    color: black;
+    background: lightblue;
+}
+
+.col-sm-4.col-xs-6.text-sm-center.noidung.giua {
+    margin-left: 25%;
+}
+
+
+
+.col-sm-4.col-xs-6.text-sm-center.noidung {
+    width: 50%;
+    text-align: center;
+    margin-right: 0px;
+}
+
+
+.menutop.fixed-top.bienhinh {
+    background: lightyellow;
+}
+
+.projects h1 {
+    text-align: center;
+    font-size: 24px;
+}
 
 
 .khoittnho {
@@ -219,7 +265,7 @@ a.navbar-brand span {
 
 
 .menutop {
-    background: lightyellow;
+    background: #ffffe000;
 }
 
 
@@ -231,12 +277,13 @@ a.navbar-brand span {
 
 li.nav-item a {
     font-size: 13px;
-    color: gray;
+    color: blue;
     font-weight: 700;
 }
 
 ul.navbar-nav {
     display: inline;
+    text-align: center;
 }
 
 li.nav-item {
