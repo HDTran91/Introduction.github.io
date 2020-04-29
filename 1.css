@@ -1,5 +1,40 @@
 *{margin: 0; padding: 0;}
 
+.nutscroll:hover {
+    background: blue;
+}
+
+.nutscroll:hover:after {
+    opacity:1;
+    visibility: visible;
+}
+.nutscroll:after {
+    width: 100px;
+    height: 100px;
+    background: #e9585f;
+    position: absolute;
+    z-index: 5;
+    content: "click to scroll down";
+    top: -100px;
+    left: 29px;
+    text-align: center;
+    padding-top: 54px;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.nutscroll {
+    position: absolute;
+    z-index: 4;
+    background: white;
+    bottom: 0;
+    left: 48%;
+    cursor: pointer;
+}
+
 
 .khoicomment h1 {
     color: gray;
