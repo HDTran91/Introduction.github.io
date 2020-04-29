@@ -1,9 +1,16 @@
 *{margin: 0; padding: 0;}
 
+
+.khoicomment h1 {
+    color: gray;
+    font-weight: 700;
+    text-align: left;
+}
 hr.duongke {
     background: yellow;
     height: 1px;
 }
+
 
 .khoittnho p {
     padding-top: 15px;
@@ -94,11 +101,7 @@ a.navbar-brand span {
     color: red;
 } 
 
-.khoicomment h1 {
-    color: gray;
-    font-weight: 700;
-    text-align: left;
-}
+
 
 
 
