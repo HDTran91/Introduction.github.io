@@ -89,17 +89,18 @@ a.navbar-brand span {
     color: red;
 } 
 
+.khoicomment h1 {
+    color: gray;
+    font-weight: 700;
+    text-align: left;
+}
+
 
 
 
 @media (max-width: 576px) {
 	*{}
 
-.khoicomment h1 {
-    color: gray;
-    font-weight: 700;
-    text-align: left;
-}
 
 .khoittnho {
     border: 3px double gray;
