@@ -1,5 +1,10 @@
 *{margin: 0; padding: 0;}
 
+hr.duongke {
+    background: yellow;
+    height: 1px;
+}
+
 .khoittnho p {
     padding-top: 15px;
 }
