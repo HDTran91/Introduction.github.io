@@ -205,13 +205,13 @@ a.navbar-brand span {
     background: lightblue;
 }
 
-.col-sm-4.col-xs-6.text-sm-center.noidung.giua {
+.col-md-4.text-sm-center.noidung.giua {
     margin-left: 25%;
 }
 
 
 
-.col-sm-4.col-xs-6.text-sm-center.noidung {
+.col-md-4.text-sm-center.noidung {
     width: 50%;
     text-align: center;
     margin-right: 0px;
@@ -252,7 +252,7 @@ a.navbar-brand span {
     font-size: 30px;
 }
 
-.col-sm-4.text-sm-center.anh {display: none;}
+.col-md-4.text-sm-center.anh {display: none;}
 
 .container.gacon {
     padding-top: 0px;
@@ -295,4 +295,133 @@ a.navbar-brand {
     font-size: 20px;
     text-align: center;
 }
+}
+
+@media (max-width: 768px) and (min-width: 577px){
+    *{}
+
+.khoicomment h1 {
+    font-size: 24px;
+    color: gray;
+    font-weight: 700;
+}
+
+.gallery h1 {
+    font-size: 24px;
+    color: gray;
+    font-weight: 700;
+}
+
+.projects h3 {
+    font-size: 26px;
+}
+
+img.img-fluid {
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.projects h1 {
+    font-size: 24px;
+    color: gray;
+    font-weight: 700;
+}
+
+.col-md-4.text-sm-left {
+    text-align: center !important;
+    padding-top: 26px;
+}
+
+.col-md-4.text-sm-center.anh {
+    display: none;
+}
+
+.col-md-4.text-sm-right {
+    text-align: center !important;
+}
+
+.edu {
+}
+
+.col-sm-4.text-sm-center.anh {
+    display: none;
+}
+
+.khoittnho {
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    background: lightblue;
+}
+
+.col-sm-4.text-sm-right {text-align: center !important;}
+
+
+
+
+.khoittnho p {
+    font-size: 13px;
+}
+
+.khoittnho h3 {
+    font-size: 15px;
+    color: blue;
+}
+
+.edu h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.edu h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: gray;
+}
+
+.container.gacon {
+    padding-top: 30px;
+}
+
+.nutscroll {
+    left: 47.2%;
+}
+
+a.nuthire.btn.btn-primary {
+    background: gray;
+    color: blue;
+    width: 150px;
+}
+
+.tt h2 {
+    font-size: 30px;
+}
+
+.tt {
+    padding-top: 100px;
+    font-size: 16px;
+}
+
+.menutop.fixed-top {
+    height: 70px;
+}
+
+li.nav-item a {
+    color: yellow;
+    font-size: 16px;
+}
+
+nav.navbar.navbar-expand-sm {
+    display: block;
+}
+
+li.nav-item {
+    display: inline-block;
+}
+
+ul.navbar-nav.ml-auto {
+    display: inline;
+    text-align: center;
+}
+
+a.navbar-brand {width: 100%;text-align: center;color: yellow;font-size: 20px;margin-top: -10px;}
 }

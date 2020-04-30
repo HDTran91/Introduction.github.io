@@ -23,6 +23,35 @@
 			$('li.nav-item a').removeClass('black');
 			$('a.navbar-brand').removeClass('black');
 		}
+
+
+		var trinh = $('.navbar ul li a');
+		
+		for (var i = 0; i < trinh.length; i++) {
+			var vitritoado = $(trinh[i]).attr('href');
+
+			var toado = (($(vitritoado).offset().top)-70);
+			console.log(toado);
+			console.log(vitri);
+			if(vitri > toado) {
+				console.log("ok chua ne");
+				$(trinh[i]).addClass('blue');
+				$(trinh[i-1]).removeClass('blue');
+			}
+
+			else {
+				$(trinh[i]).removeClass('blue');
+			}
+	
+			
+		}
+		
+		
+
+
+
+		
+
 	
 	});
 
